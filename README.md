@@ -1,7 +1,7 @@
-# rLLMinLocal
+# rLocal-LLM-Pomelo
 Local LLM with RAG using R Shiny and ollama
 
-Welcome to **rLLMinLocal**! This open-source Shiny application is designed for conversational interactions with Large Language Models (LLMs). We encourage free editing, contributions, and improvements. Feel free to fork this project, submit pull requests, or customize it to suit your needs.
+Welcome to **rLocal-LLM-Pomelo**! This open-source Shiny application is designed for conversational interactions with Large Language Models (LLMs). We encourage free editing, contributions, and improvements. Feel free to fork this project, submit pull requests, or customize it to suit your needs.
 
 ---
 
@@ -26,7 +26,7 @@ Welcome to **rLLMinLocal**! This open-source Shiny application is designed for c
 
 ## Overview
 
-**rLLMinLocal** is an R/Shiny application that provides an intuitive interface for interacting with LLMs. It supports multi-conversation management, document embedding, retrieval-augmented generation (RAG), and even OCR for image files. The application integrates with local LLM services (e.g., via Ollama) to retrieve context and generate responses based solely on provided information.
+**rLocal-LLM-Pomelo** is an R/Shiny application that provides an intuitive interface for interacting with LLMs. It supports multi-conversation management, document embedding, retrieval-augmented generation (RAG), and even OCR for image files. The application integrates with local LLM services (e.g., via Ollama) to retrieve context and generate responses based solely on provided information.
 
 ---
 
