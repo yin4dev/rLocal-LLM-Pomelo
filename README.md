@@ -19,7 +19,8 @@ Welcome to **rLLM v0.3.14**! This open-source Shiny application is designed for 
    - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
    - [Embedding Caching and Combination](#embedding-caching-and-combination)
 6. [Configuration](#configuration)
-7. [License](#license)
+7. [Special Thanks](#special-thanks)
+8. [License](#license)
 
 ---
 
@@ -185,11 +186,15 @@ CREATE TABLE documents (
 
 ---
 
+## Special Thanks
+A huge thank you to my loving Aimi Yago for her invaluable understanding, support, and inspiration in making this project better!  🎉
+
+---
 ## License
 
 This project is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html).
 
-```
+
 Copyright (C) 2025 Hongrong Yin
 
 This program is free software: you can redistribute it and/or modify
