@@ -1,4 +1,4 @@
-app_name = "rLLMinLocal v0.1"
+app_name = "rLocal-LLM-Pomelo v0.1"
 #20250305
 #Hongrong Yin
 
