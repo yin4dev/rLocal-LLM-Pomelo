@@ -1,7 +1,7 @@
-# rLLM
+# rLLMinLocal
 Local LLM with RAG using R Shiny and ollama
 
-Welcome to **rLLM v0.3.14**! This open-source Shiny application is designed for conversational interactions with Large Language Models (LLMs). We encourage free editing, contributions, and improvements. Feel free to fork this project, submit pull requests, or customize it to suit your needs.
+Welcome to **rLLMinLocal**! This open-source Shiny application is designed for conversational interactions with Large Language Models (LLMs). We encourage free editing, contributions, and improvements. Feel free to fork this project, submit pull requests, or customize it to suit your needs.
 
 ---
 
@@ -26,7 +26,7 @@ Welcome to **rLLM v0.3.14**! This open-source Shiny application is designed for 
 
 ## Overview
 
-**rLLM** is an R/Shiny application that provides an intuitive interface for interacting with LLMs. It supports multi-conversation management, document embedding, retrieval-augmented generation (RAG), and even OCR for image files. The application integrates with local LLM services (e.g., via Ollama) to retrieve context and generate responses based solely on provided information.
+**rLLMinLocal** is an R/Shiny application that provides an intuitive interface for interacting with LLMs. It supports multi-conversation management, document embedding, retrieval-augmented generation (RAG), and even OCR for image files. The application integrates with local LLM services (e.g., via Ollama) to retrieve context and generate responses based solely on provided information.
 
 ---
 
