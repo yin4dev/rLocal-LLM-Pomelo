@@ -61,19 +61,28 @@ Welcome to **rLocal-LLM-Pomelo**! This open-source Shiny application is designed
 2. **Install Ollama and Pull LLM Models**  
    - **Ollama**:  
      Install [Ollama](https://www.ollama.com/) to run local LLM models.  
-     After installing Ollama, pull the required LLM models using commands such as:
+     After installing Ollama, pull LLM models, embedding models and reranker models using commands such as:
      ```bash
      ollama pull llama3.2:1b
      ollama pull llama3.2:3b
      ollama pull deepseek-r1:8b
+     ollama pull paraphrase-multilingual:latest
+     ollama pull kun432/cl-nagoya-ruri-base:latest
+     ollama pull nomic-embed-text:latest
+     ollama pull linux6200/bge-reranker-v2-m3:latest
+     ollama pull qllama/bge-reranker-v2-m3
      ```
+
+- Install [Ollama](https://www.ollama.com/) and download desired LLM models (e.g., `llama3.2:1b`, `llama3.2:3b`, `deepseek-r1:8b`), embedding models (e.g., 'paraphrase-multilingual:latest', 'kun432/cl-nagoya-ruri-base:latest', 'nomic-embed-text:latest') and reranker models (e.g.,'linux6200/bge-reranker-v2-m3:latest', 'qllama/bge-reranker-v2-m3').
+
+
    - **Tesseract OCR**:  
      Install Tesseract OCR and ensure that the environment variable is set:
      ```r
      Sys.setenv(TESSDATA_PREFIX = "<path_to_tessdata>")
      ```
 
-3. **Install R Packages**  
+2. **Install R Packages**  
    Install the required R packages:
    ```r
    install.packages(c(
@@ -83,7 +92,7 @@ Welcome to **rLocal-LLM-Pomelo**! This open-source Shiny application is designed
    ))
    ```
 
-4. **Review and Configure the Code**  
+3. **Review and Configure the Code**  
    - Modify file paths and configuration parameters as needed (e.g., folder directories for document embeddings).
    - The LLM endpoint is set to `http://localhost:11434/api/generate` by default; change this if your LLM service runs on a different address.
 
