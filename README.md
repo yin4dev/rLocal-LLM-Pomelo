@@ -1,7 +1,7 @@
 # rLocal-LLM-Pomelo
 Local LLM with RAG using R Shiny and ollama
 
-Welcome to **rLocal-LLM-Pomelo**! This open-source Shiny application is designed for conversational interactions with Large Language Models (LLMs). We encourage free editing, contributions, and improvements. Feel free to fork this project, submit pull requests, or customize it to suit your needs.
+Welcome to **rLocal-LLM-Pomelo**! This open-source Shiny application is designed for conversational interactions with Large Language Models (LLMs), **which is developed to be applicable to R-portable**. I encourage free editing, contributions, and improvements. Feel free to fork this project, submit pull requests, or customize it to suit your needs.
 
 ---
 
