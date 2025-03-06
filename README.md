@@ -79,9 +79,8 @@ Welcome to **rLocal-LLM-Pomelo**! This open-source Shiny application is designed
    install.packages(c(
      "shiny", "shinyBS", "shinyjs", "httr", "jsonlite", "pdftools",
      "readtext", "tools", "RSQLite", "DBI", "curl", "tesseract",
-     "magick", "base64enc"
+     "magick", "base64enc", 'rollama'
    ))
-   # Note: 'rollama' may need to be installed from its source repository.
    ```
 
 4. **Review and Configure the Code**  
