@@ -2,7 +2,7 @@
 Local LLM with RAG using R Shiny and ollama
 
 
-(This app is part of the **WakaCitrus-Informatics** series. For other apps in the **WakaCitrus-Informatics** series, please visit:　https://github.com/yin4dev?tab=repositories)
+(This app is a part of the **WakaCitrus-Informatics** series. For other apps in the **WakaCitrus-Informatics** series, please visit:　https://github.com/yin4dev?tab=repositories)
 
 Welcome to **rLocal-LLM-Pomelo**! This open-source Shiny application is designed for conversational interactions with Large Language Models (LLMs), **which is developed to be applicable to R-portable**. I encourage free editing, contributions, and improvements. Feel free to fork this project, submit pull requests, or customize it to suit your needs.
 
